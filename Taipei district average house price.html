@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_31e55ff6c0723d6a26d6ccdd6b94e0b0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_31e55ff6c0723d6a26d6ccdd6b94e0b0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_31e55ff6c0723d6a26d6ccdd6b94e0b0 = L.map(
+                "map_31e55ff6c0723d6a26d6ccdd6b94e0b0",
+                {
+                    center: [25.0477596, 121.515526],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1fce7eb5b28f9221917920c7528fadb6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var marker_137ddb47c7060416640fce8c5d280f50 = L.marker(
+                [25.03240487, 121.5198839],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_3217fca24538bc2d9dd26b4a87e6b0ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_137ddb47c7060416640fce8c5d280f50.setIcon(icon_3217fca24538bc2d9dd26b4a87e6b0ba);
+        
+    
+        var popup_69c8e7905155f8c0197073aa0280427e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f78b1570e8419a7ef747bb5154c921d5 = $(`<div id="html_f78b1570e8419a7ef747bb5154c921d5" style="width: 100.0%; height: 100.0%;">臺北市中正區平均每坪單價：796687元</div>`)[0];
+                popup_69c8e7905155f8c0197073aa0280427e.setContent(html_f78b1570e8419a7ef747bb5154c921d5);
+            
+        
+
+        marker_137ddb47c7060416640fce8c5d280f50.bindPopup(popup_69c8e7905155f8c0197073aa0280427e)
+        ;
+
+        
+    
+    
+            var marker_a699ad106140d409cc132bf952e65030 = L.marker(
+                [25.06342433, 121.5130417],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_2266b0692254fb31438daf804777929b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a699ad106140d409cc132bf952e65030.setIcon(icon_2266b0692254fb31438daf804777929b);
+        
+    
+        var popup_2ed67c99a327542081509151675e1678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05311f696708dcc277676575701d8949 = $(`<div id="html_05311f696708dcc277676575701d8949" style="width: 100.0%; height: 100.0%;">臺北市大同區平均每坪單價：617299元</div>`)[0];
+                popup_2ed67c99a327542081509151675e1678.setContent(html_05311f696708dcc277676575701d8949);
+            
+        
+
+        marker_a699ad106140d409cc132bf952e65030.bindPopup(popup_2ed67c99a327542081509151675e1678)
+        ;
+
+        
+    
+    
+            var marker_070a353a6928c4bbe75b44170916a352 = L.marker(
+                [25.06969917, 121.5381597],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_2986814787f9b697ef916555c5b93bbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_070a353a6928c4bbe75b44170916a352.setIcon(icon_2986814787f9b697ef916555c5b93bbe);
+        
+    
+        var popup_6103b1ee50bd406f936aa4eae20aa20b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ba741e8506c434819111549a242b0f6 = $(`<div id="html_2ba741e8506c434819111549a242b0f6" style="width: 100.0%; height: 100.0%;">臺北市中山區平均每坪單價：713871元</div>`)[0];
+                popup_6103b1ee50bd406f936aa4eae20aa20b.setContent(html_2ba741e8506c434819111549a242b0f6);
+            
+        
+
+        marker_070a353a6928c4bbe75b44170916a352.bindPopup(popup_6103b1ee50bd406f936aa4eae20aa20b)
+        ;
+
+        
+    
+    
+            var marker_25f99395904172a884e942513d2af977 = L.marker(
+                [25.05999101, 121.5575876],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_cfef64fe7c23872adb4a73c4fdc25b4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25f99395904172a884e942513d2af977.setIcon(icon_cfef64fe7c23872adb4a73c4fdc25b4b);
+        
+    
+        var popup_33a5ab4d77f83d157beeaca87919a9d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d69c02dbc19978a3dbac5e01872d4956 = $(`<div id="html_d69c02dbc19978a3dbac5e01872d4956" style="width: 100.0%; height: 100.0%;">臺北市松山區平均每坪單價：748369元</div>`)[0];
+                popup_33a5ab4d77f83d157beeaca87919a9d4.setContent(html_d69c02dbc19978a3dbac5e01872d4956);
+            
+        
+
+        marker_25f99395904172a884e942513d2af977.bindPopup(popup_33a5ab4d77f83d157beeaca87919a9d4)
+        ;
+
+        
+    
+    
+            var marker_e391e94c3d2189950450eb128190cdb1 = L.marker(
+                [25.02677012, 121.5434446],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_2aa7b433c4ce2208a1ea36b219399c13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e391e94c3d2189950450eb128190cdb1.setIcon(icon_2aa7b433c4ce2208a1ea36b219399c13);
+        
+    
+        var popup_ce6f1ca6160cc39270f45cadcf24738e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e0a643ce6e5acc27866af0bab75cd2b = $(`<div id="html_5e0a643ce6e5acc27866af0bab75cd2b" style="width: 100.0%; height: 100.0%;">臺北市大安區平均每坪單價：890209元</div>`)[0];
+                popup_ce6f1ca6160cc39270f45cadcf24738e.setContent(html_5e0a643ce6e5acc27866af0bab75cd2b);
+            
+        
+
+        marker_e391e94c3d2189950450eb128190cdb1.bindPopup(popup_ce6f1ca6160cc39270f45cadcf24738e)
+        ;
+
+        
+    
+    
+            var marker_014c85dee10a977ae6c15a4328cd1437 = L.marker(
+                [25.0285899, 121.4979858],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_e530fb4130e793221fd97de529fadf77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_014c85dee10a977ae6c15a4328cd1437.setIcon(icon_e530fb4130e793221fd97de529fadf77);
+        
+    
+        var popup_de4b06cda986707dcc3a05b31734377c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0223982dcacb265bdf1948e54a656d22 = $(`<div id="html_0223982dcacb265bdf1948e54a656d22" style="width: 100.0%; height: 100.0%;">臺北市萬華區平均每坪單價：517970元</div>`)[0];
+                popup_de4b06cda986707dcc3a05b31734377c.setContent(html_0223982dcacb265bdf1948e54a656d22);
+            
+        
+
+        marker_014c85dee10a977ae6c15a4328cd1437.bindPopup(popup_de4b06cda986707dcc3a05b31734377c)
+        ;
+
+        
+    
+    
+            var marker_bac388c692f7ba2702fbc0012c14f2e8 = L.marker(
+                [25.03062083, 121.5716697],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_c9284e084261d4bb6ee7c045845eabde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bac388c692f7ba2702fbc0012c14f2e8.setIcon(icon_c9284e084261d4bb6ee7c045845eabde);
+        
+    
+        var popup_8937b5a8f6989c2905bc7ace76fc14c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1aaa5c3b03be11af99f3fe5379c17589 = $(`<div id="html_1aaa5c3b03be11af99f3fe5379c17589" style="width: 100.0%; height: 100.0%;">臺北市信義區平均每坪單價：763334元</div>`)[0];
+                popup_8937b5a8f6989c2905bc7ace76fc14c3.setContent(html_1aaa5c3b03be11af99f3fe5379c17589);
+            
+        
+
+        marker_bac388c692f7ba2702fbc0012c14f2e8.bindPopup(popup_8937b5a8f6989c2905bc7ace76fc14c3)
+        ;
+
+        
+    
+    
+            var marker_c225a8f9805ab165313cc20a177fe0bb = L.marker(
+                [25.12546704, 121.5508473],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_21398eac07a83a3a130a2534c0a36983 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c225a8f9805ab165313cc20a177fe0bb.setIcon(icon_21398eac07a83a3a130a2534c0a36983);
+        
+    
+        var popup_c26c315b7872297e9e14e2fc7debddcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c1d56e539cd0c06877b1697448e2b31 = $(`<div id="html_0c1d56e539cd0c06877b1697448e2b31" style="width: 100.0%; height: 100.0%;">臺北市士林區平均每坪單價：601834元</div>`)[0];
+                popup_c26c315b7872297e9e14e2fc7debddcc.setContent(html_0c1d56e539cd0c06877b1697448e2b31);
+            
+        
+
+        marker_c225a8f9805ab165313cc20a177fe0bb.bindPopup(popup_c26c315b7872297e9e14e2fc7debddcc)
+        ;
+
+        
+    
+    
+            var marker_181eed0a9aa09c1b0cbf62a330d68f3c = L.marker(
+                [25.1480682, 121.5177992],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_d2298303b38f689f64fddee1647ba0ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_181eed0a9aa09c1b0cbf62a330d68f3c.setIcon(icon_d2298303b38f689f64fddee1647ba0ed);
+        
+    
+        var popup_62c0bcc4ba7da2004c3fb931b93606a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f0539834122684748b5c9ab1600f162 = $(`<div id="html_0f0539834122684748b5c9ab1600f162" style="width: 100.0%; height: 100.0%;">臺北市北投區平均每坪單價：501670元</div>`)[0];
+                popup_62c0bcc4ba7da2004c3fb931b93606a5.setContent(html_0f0539834122684748b5c9ab1600f162);
+            
+        
+
+        marker_181eed0a9aa09c1b0cbf62a330d68f3c.bindPopup(popup_62c0bcc4ba7da2004c3fb931b93606a5)
+        ;
+
+        
+    
+    
+            var marker_460e0f16502d5ad140e72a2260db6bf8 = L.marker(
+                [25.08370623, 121.5923828],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_7e183d83cfdc2bae0cd5e8dd7e2de0f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_460e0f16502d5ad140e72a2260db6bf8.setIcon(icon_7e183d83cfdc2bae0cd5e8dd7e2de0f3);
+        
+    
+        var popup_9f1a6625cd84d1d5042b978055f3ca5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_473b5f9052e3554a04ade3684692678e = $(`<div id="html_473b5f9052e3554a04ade3684692678e" style="width: 100.0%; height: 100.0%;">臺北市內湖區平均每坪單價：589801元</div>`)[0];
+                popup_9f1a6625cd84d1d5042b978055f3ca5c.setContent(html_473b5f9052e3554a04ade3684692678e);
+            
+        
+
+        marker_460e0f16502d5ad140e72a2260db6bf8.bindPopup(popup_9f1a6625cd84d1d5042b978055f3ca5c)
+        ;
+
+        
+    
+    
+            var marker_f94b4ba150f0c48fde22c3e3ae932e45 = L.marker(
+                [25.03600934, 121.6097573],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_32586856ff581396226bcbd1c7a11eaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f94b4ba150f0c48fde22c3e3ae932e45.setIcon(icon_32586856ff581396226bcbd1c7a11eaf);
+        
+    
+        var popup_69478891bd7e834e0626c1163754d7c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b1f0f9290df91def68839f909195f34 = $(`<div id="html_4b1f0f9290df91def68839f909195f34" style="width: 100.0%; height: 100.0%;">臺北市南港區平均每坪單價：603083元</div>`)[0];
+                popup_69478891bd7e834e0626c1163754d7c9.setContent(html_4b1f0f9290df91def68839f909195f34);
+            
+        
+
+        marker_f94b4ba150f0c48fde22c3e3ae932e45.bindPopup(popup_69478891bd7e834e0626c1163754d7c9)
+        ;
+
+        
+    
+    
+            var marker_05207d54e3e5912a29fb641520a1d7d8 = L.marker(
+                [24.98857934, 121.5736082],
+                {}
+            ).addTo(map_31e55ff6c0723d6a26d6ccdd6b94e0b0);
+        
+    
+            var icon_4b9313509a1052675ef386eb0f68e7d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_05207d54e3e5912a29fb641520a1d7d8.setIcon(icon_4b9313509a1052675ef386eb0f68e7d3);
+        
+    
+        var popup_22a94de2acf8a2df3ad2b31b0f7df1af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9d10014b5e8bbdf75b061fd74b4a3af = $(`<div id="html_d9d10014b5e8bbdf75b061fd74b4a3af" style="width: 100.0%; height: 100.0%;">臺北市文山區平均每坪單價：499285元</div>`)[0];
+                popup_22a94de2acf8a2df3ad2b31b0f7df1af.setContent(html_d9d10014b5e8bbdf75b061fd74b4a3af);
+            
+        
+
+        marker_05207d54e3e5912a29fb641520a1d7d8.bindPopup(popup_22a94de2acf8a2df3ad2b31b0f7df1af)
+        ;
+
+        
+    
+</script>
+</html>
